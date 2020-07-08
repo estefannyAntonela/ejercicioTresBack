@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<root>
+      CREATE TABLE IF NOT EXISTS "EMPRESA" 
+   (	"EMP_ID" NUMBER(10,0) NOT NULL ENABLE, 
+	"EMP_NOMB" VARCHAR2(20 BYTE), 
+	"EMP_NIT" VARCHAR2(20 BYTE), 
+	"EMP_FECH" TIMESTAMP (6), 
+	"EMP_DIR" VARCHAR2(20 BYTE),
+    PRIMARY KEY ("EMP_ID")
+   ) 
+    
+</root>

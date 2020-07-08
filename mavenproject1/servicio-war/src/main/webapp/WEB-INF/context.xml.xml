@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context antiJARLocking="true" path="/Ejercicios">
+  <ResourceLink global="jdbc/sasBD" name="jdbc/sasBD" type="javax.sql.DataSource"/>
+</Context>
